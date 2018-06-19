@@ -27,9 +27,9 @@
 <ul id="mobile-demo" class="sidenav">
     <li><div class="user-view">
             <div class="background">
-                <img src="../images/cuadro.jpg">
+                <img src="{{asset('images/cuadro.jpg')}}">
             </div>
-            <a href="#user"><img class="circle" src="../images/user.png"></a>
+            <a href="#user"><img class="circle" src="{{asset('images/user.png')}}"></a>
             <a href="#name"><span class="white-text name">TestMoises</span></a>
         </div></li>
     <li><a href=""><i class="material-icons">home</i>Inicio</a></li>

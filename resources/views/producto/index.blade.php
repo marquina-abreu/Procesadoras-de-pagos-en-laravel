@@ -1,5 +1,14 @@
 @extends('template.main')
 @section('title','Producto')
+@section('scriptsup')
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.0';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+@endsection
 @section('content')
 <style type="text/css">
 	hr { 
@@ -58,11 +67,15 @@
 	<div class="col s12 m6 l6">
 		<h5>Comentarios:</h5>
 		<hr>
+    <br>
+    <div id="fb-root"></div>
+    <div class="fb-comments"></div>
 	</div>
 	<div class="col s1 m1 l1"></div>
 	<div class="col s12 m5 l5">
 		<h5>Reputación y valoración:</h5>
 		<hr>
+    <br>
 	</div>
 	
 </div>

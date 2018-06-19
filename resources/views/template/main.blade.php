@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{asset('css/materialize.min.css')}}">
     <link rel="stylesheet" href="{{asset('fonts.css')}}">
     <script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
+    @yield('scriptsup')
     <title>Tienda - @yield('title')</title>
 </head>
 <body>
@@ -15,6 +16,7 @@
 <br><br>
 @yield('content')
 
+@yield('scriptsdown')
 <script src="{{asset('js/jss.js')}}"></script>
 <script src="{{asset('js/materialize.min.js')}}"></script>
 </body>

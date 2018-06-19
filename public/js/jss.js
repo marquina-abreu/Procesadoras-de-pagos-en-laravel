@@ -33,6 +33,9 @@ $(document).ready(function(){
        });
    });
   	 $('select').formSelect();
-  	 $('input#icon_prefix, input#icon_prefix2, input#icon_prefix3,input#icon_telephone,input#icon_prefix4,input#icon_prefix5').characterCounter();
+  	 $('input#icon_prefix, input#icon_prefix2, input#icon_prefix3,input#icon_telephone,input#icon_prefix4,input#icon_prefix5,input#icon_prefix6,input#icon_prefix7,input#icon_prefix8').characterCounter();
+
+  	 //mercadopago
+  	 $('input#cardNumber,input#securityCode,input#cardExpirationMonth,input#cardExpirationYear,input#cardholderName,input#docNumber,input#email').characterCounter();
   	 $('.sidenav').sidenav();
   });
