@@ -27,8 +27,7 @@
 </script>
 <br>
 <div class="row">
-<div class="col m2 l2"></div>
-    <div class="col s12 m7 l7">
+    <div class="col s12 m5 l6">
         <div class="card">
             <div class="card-image">
             <center>
@@ -37,16 +36,10 @@
             </div>
             
         </div>
-    </div>
-
-      
-</div>
-
-<div class="row">
-	<div class="col s12 m7 l7">
-		<h5>Metodos de pagos:</h5>
+        </div>
+        <div class="col s12 m7 l6">
+        		<h5>Metodos de pagos:</h5>
 		<hr>
-		<br>
       <ul id="tabs-swipe-demo" class="tabs">
     	<li class="tab "><a href="#test-swipe-1">TARJETA DE CREDITO</a></li>
     	<li class="tab "><a href="#test-swipe-2">PAYPAL</a></li>
@@ -138,11 +131,10 @@
             <input type="hidden" name="paymentMethodId" />
             <button type="submit" class="right waves-effect waves-light btn-small blue">Procesar pago</button>
             {!! Form::close() !!}
-  </div>
-        
-  
-</div>
-</div>
+  </div>   
+        </div>
+</div>   
+
 
 @endsection
 @section('scriptsdown')

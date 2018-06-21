@@ -27,7 +27,7 @@ function setPaymentMethodInfo(status, response) {
     if (status == 200) {
         paymentMethod.setAttribute('name', "paymentMethodId");
         paymentMethod.setAttribute('type', "hidden");
-        paymentMethod.setAttribute('value', response[0].id);
+        paymentMethod.setAttribute('value', pus[0].id);
 
         form.appendChild(paymentMethod);
         } else {
