@@ -16,7 +16,7 @@
             <li><a style="letter-spacing: 6px; font-size: 22px;" id="u">Payments</a></li>
             </ul>
             <ul class="right hide-on-med-and-down" id="navv2">
-                <li><a href="{{route('home')}}">Inicio</a></li>
+                <li><a href="{{route('inicio')}}">Inicio</a></li>
                 <li><a href="../secciones/">Productos</a></li>
                 <li><a href="../logout.php" >Login</a></li>
             </ul>
@@ -32,7 +32,7 @@
             <a href="#user"><img class="circle" src="{{asset('images/user.png')}}"></a>
             <a href="#name"><span class="white-text name">TestMoises</span></a>
         </div></li>
-    <li><a href=""><i class="material-icons">home</i>Inicio</a></li>
+    <li><a href="{{route('inicio')}}"><i class="material-icons">home</i>Inicio</a></li>
     <li><a href="../materias_inscritas/"><i class="material-icons">add_circle</i>Productos</a></li>
     <li><div class="divider"></div></li>
     <li><a href="../logout.php" class=""><i class="material-icons">settings_power</i>Login</a></li>

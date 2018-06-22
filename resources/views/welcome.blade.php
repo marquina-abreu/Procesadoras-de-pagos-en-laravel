@@ -18,7 +18,7 @@
             <h3>Bienvenidos a la mejor tienda virtual</h3>
             <br><br>
             <img src="{{asset('images/Mobile-Payments.png')}}" class="responsive-img" style="width:200px; height:230px;" ><br>
-            <a href="{{route('home')}}" class="waves-effect waves-light btn-small">Entrar</a>
+            <a href="{{route('inicio')}}" class="waves-effect waves-light btn-small">Entrar</a>
         </div>
     </div>
 </center>

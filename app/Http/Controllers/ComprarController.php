@@ -27,7 +27,7 @@ class ComprarController extends Controller
 		));
 
 		echo $token;
-		echo "Pago exitoso";
+		echo "Pago exitoso<br>";
 		}catch(\Stripe\Error\Card $e){
 			echo "errorrrr moises ";
 		}
